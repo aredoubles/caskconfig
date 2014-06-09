@@ -12,7 +12,8 @@ brew cask install gpgtools
 brew cask install mailmate
 
 # Video
-brew cask install mplayer-osx-extended
+brew cask install mpv
+brew cask install vlc
 
 # Audio
 brew cask install xld
