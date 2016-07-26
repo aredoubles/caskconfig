@@ -1,20 +1,27 @@
 caskConfig
 ==========
 
-Quick and dirty application installs for a new machine using the power of [Homebrew Cask](http://caskroom.io/). 
+Were I ever to receive a fresh new Mac, here's a bulk approach to installing apps using [Homebrew Cask](http://caskroom.io/). 
 
 ## Usage
-The lore of the land recommends that you clone to your profile root, i.e. ``~/``, but really, anywhere works. Chances are you'll only use this once - when you're setting up your new rig. After that, feel free to delete it. 
+The lore of the land recommends that you clone to your profile root, i.e. ``~/``, but I prefer ``~/Applications/``. Chances are you'll only use this once - when you're setting up your new rig. After that, feel free to delete it. 
 
-Before you get started, make sure you have [Brew](http://brew.sh/) and [Cask](http://caskroom.io/) on your system (in that order). Then run
+Before you get started, make sure you have [Brew](http://brew.sh/) and [Cask](http://caskroom.io/) on your system (in that order). That involves two lines in the Terminal:
+
+```ruby -e "$(curl -fsSL "https://raw.githubusercontent.com/Homebrew/install/master/install)"``` 
+for Homebrew, and 
+
+``brew tap caskroom/cask`` for Cask.
+
+Then run
 ```shell
-~/.caskconfig.sh
+~/Applications/.caskconfig.sh
 ```
 and grab a coffee. Cask installs all the applications for you. Of course, you'll need an internet connection, but since you're looking at this on Github...
 
 If for some reason the code above doesn't work, it's not your fault - it's just computers being weird. Try this:
 ```shell
-sh ~/.caskconfig.sh
+sh ~/Applications/.caskconfig.sh
 ```
 and it should send you on your way.
 
@@ -31,6 +38,8 @@ NB: I'll be damned (and crazy ashamed) if there's bugs in code like this.
 Please submit all pull requests against *-wip branches. PRs should really be for things that improve functionality in a system agnostic manner. If you'd just like to add programs and applications that work for you, fork away! Of course, if there's something everyone should absolutely use (e.g. a QL plugin which works for everyone), I'd be glad to add it in.
 
 ## Author
+
+Thanks to the original author from which I forked most of this:
 
 **Kenneth Lim**
 + http://kenlimmj.com
