@@ -25,6 +25,8 @@ sh ~/Applications/.caskconfig.sh
 ```
 and it should send you on your way.
 
+Do also check out the [Lifehacker write-up](http://lifehacker.com/how-to-make-your-own-bulk-app-installer-for-os-x-1586252163), including the comments(!), which are actually quite helpful(!!).
+
 ## Bug Tracking and Feature Requests
 
 Have a bug or a feature request? [Please open a new issue](https://github.com/kenlimmj/caskconfig/issues).

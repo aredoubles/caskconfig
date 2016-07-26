@@ -46,3 +46,7 @@ brew cask install netlogo
 brew cask install python python3
 brew cask install r
 brew cask install rstudio
+
+
+# In the aftermath, clean up the downloaded files
+brew cask cleanup
