@@ -42,6 +42,7 @@ brew cask install xld
 
 # Data science
 brew cask install anaconda
+brew cask install atom
 brew cask install netlogo
 brew cask install python python3
 brew cask install r
