@@ -21,6 +21,7 @@ brew cask install qlmarkdown
 brew cask install quicklook-csv
 brew cask install skype
 brew cask install the-unarchiver
+brew cask install twitterific
 brew cask install virtualbox
 
 # Media
