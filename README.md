@@ -25,6 +25,8 @@ sh ~/Applications/.caskconfig.sh
 ```
 and it should send you on your way.
 
+Be sure to occasionally update the apps, and Homebrew/Cask itself, with ``brew update``.
+
 Do also check out the [Lifehacker write-up](http://lifehacker.com/how-to-make-your-own-bulk-app-installer-for-os-x-1586252163), including the comments(!), which are actually quite helpful(!!).
 
 ## Bug Tracking and Feature Requests
