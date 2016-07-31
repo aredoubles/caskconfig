@@ -45,7 +45,7 @@ brew cask install xld
 brew cask install anaconda
 brew cask install atom
 brew cask install netlogo
-brew cask install python python3
+brew cask install python
 brew cask install r
 brew cask install rstudio
 
