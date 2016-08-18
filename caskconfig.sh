@@ -19,6 +19,7 @@ brew cask install silverlight
 brew cask install mou
 brew cask install qlmarkdown
 brew cask install quicklook-csv
+brew cask install slack
 brew cask install skype
 brew cask install the-unarchiver
 brew cask install twitterific
@@ -45,6 +46,7 @@ brew cask install xld
 brew cask install anaconda
 brew cask install atom
 brew cask install netlogo
+brew cask install postgres
 brew cask install python
 brew cask install r
 brew cask install rstudio
