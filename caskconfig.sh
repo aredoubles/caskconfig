@@ -2,54 +2,39 @@
 
 # Utilities
 brew cask install 1password
+brew cask install aldente
 brew cask install alfred
-brew cask install backblaze
-brew cask install bartender
-brew cask install box-sync
-brew cask install dropbox
-brew cask install flash
-brew cask install flux
-brew cask install github-desktop
-brew cask install google-chrome
-brew cask install google-earth
-brew cask install imagej
+brew cask install google-earth-pro
 brew cask install itsycal
-brew cask install java
-brew cask install silverlight
-brew cask install mou
-brew cask install qlmarkdown
-brew cask install quicklook-csv
-brew cask install slack
-brew cask install skype
-brew cask install the-unarchiver
-brew cask install twitterific
-brew cask install virtualbox
+brew cask install jordanbaird-ice
+brew cask install obsidian
+brew cask install orion
+brew cask install rocket
+brew cask install vscodium
+brew cask install whatsapp
+brew cask install zoom
+brew install cook
+brew install mole
 
 # Media
 brew cask install audacity
 brew cask install audacity-lame-library
-brew cask install blu-ray-player
 brew cask install handbrake
-brew cask install kindle
+brew cask install iina
 brew cask install kobo
-brew cask install kodi
 brew cask install makemkv
-brew cask install mplayerx
-brew cask install openemu
-brew cask install piezo
-brew cask install sopcast
-brew cask install transmission
-brew cask install vlc
-brew cask install xld
+brew install ffmpeg
+brew install ffmpeg@6
+brew install lame
+brew install yt-dlp
 
 # Data science
-brew cask install anaconda
-brew cask install atom
-brew cask install netlogo
-brew cask install postgres
-brew cask install python
 brew cask install r
-brew cask install rstudio
+brew cask install positron
+
+# Social/gaming
+brew cask install discord
+brew cask install nvidia-geforce-now
 
 
 # In the aftermath, clean up the downloaded files
